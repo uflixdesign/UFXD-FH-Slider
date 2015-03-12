@@ -20,10 +20,10 @@ Here we will describe how easily you can implement UFXD FH Slider into your web 
 #### 1. Required inclusions
 Include required css and js files.
 ```html
-<link rel="stylesheet" type="text/css" href="ufxd-fh-slider/ufxd-fh-slider.css" />
+<link rel="stylesheet" type="text/css" href="ufxd-fh-slider/ufxd-fh-slider.min.css" />
 
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<script src="ufxd-fh-slider/jquery.ufxd-fh-slider.js"></script>
+<script src="ufxd-fh-slider/jquery.ufxd-fh-slider.min.js"></script>
 ```
 
 #### 2. The Markup

@@ -1,0 +1,15 @@
+.ufxd-fh-slider-clearfix:before,.ufxd-fh-slider-clearfix:after{content:''; clear:both; display:block; height:0; opacity:0; overflow:hidden; visibility:hidden;}
+.ufxd-fh-slider-wraper, .ufxd-fh-slider-wraper *{ -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.ufxd-fh-slider-wraper{width:100%; position:relative; box-shadow:rgba(0,0,0,0.7) 0px 1px 5px;}
+.ufxd-fh-trigger{position:absolute; top:50%; margin-top:-20px; z-index:20; padding:7px 13px 11px 13px; text-decoration:none; color:#FFF; background:rgba(0,0,0,0.3); -moz-transition: all 500ms; -ms-transition: all 500ms; -o-transition: all 500ms; -webkit-transition: all 500ms; transition: all 500ms;}
+.ufxd-fh-trigger:hover{background:rgba(0,0,0,0.5);}
+.ufxd-fh-trigger-left{left:0;}
+.ufxd-fh-trigger-right{right:0;}
+.ufxd-fh-slider-slides{height:400px; width:100%; position:relative; overflow:hidden;}
+.ufxd-fh-slider-slide-item{height:100%; opacity:0; width:100%; z-index:2; position:absolute; top:0; left:0; background-position:center; background-repeat:no-repeat; background-size:contain; -moz-transition: all 500ms; -ms-transition: all 500ms; -o-transition: all 500ms; -webkit-transition: all 500ms; transition: all 500ms;}
+.ufxd-fh-slider-slide-item.ufxd-fh-slider-slide-active{z-index:3; opacity:1;}
+.ufxd-fh-slider-thumbs-wraper{width:100%; height:64px; overflow:hidden; position:relative;}
+.ufxd-fh-slider-thumbs-inner{width:auto; display:block; list-style:none; margin:0; padding:0; position:absolute; top:0; left:0;  -moz-transition: all 500ms; -ms-transition: all 500ms; -o-transition: all 500ms; -webkit-transition: all 500ms; transition: all 500ms;}
+.ufxd-fh-slider-thumb{width:64px; height:64px; float:left; background-position:center; background-repeat:no-repeat; background-size:cover; position:relative; cursor:pointer;}
+.ufxd-fh-slider-thumb:hover:after{content:''; position:absolute; top:0; left:0; right:0; bottom:0; background:rgba(255,255,255,0.2);}
+.ufxd-fh-slider-thumb.ufxd-fh-slider-thumb-active:after{content:''; position:absolute; top:0; left:0; right:0; bottom:0; box-shadow:rgba(0,0,0,0.6) 1px 1px 3px inset; border-bottom:#222 solid 1px;}
