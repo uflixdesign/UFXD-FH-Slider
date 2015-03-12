@@ -5,6 +5,7 @@
 Later we will see how we can use and customize it and can also be used as a fullscreen slider.
 
 Project URL: http://uflixdesign.com/project/ufxd-fixed-height-image-slider-responsive/
+
 More projects @ CodeStack: http://uflixdesign.com/codestack/
 
 ## Requirements
