@@ -18,6 +18,7 @@ Later we will see how we can use customize it and also use it as a fullscreen sl
 Here we will describe how easily you can implement UFXD FH Slider into your web application or website.
 
 #### 1. Required inclusions
+Include required css and js files.
 ```html
 <link rel="stylesheet" type="text/css" href="ufxd-fh-slider/ufxd-fh-slider.css" />
 
@@ -26,7 +27,7 @@ Here we will describe how easily you can implement UFXD FH Slider into your web 
 ```
 
 #### 2. The Markup
-Here is the snippet of the HTML you should use to 
+Here is the snippet of the HTML you should use:
 ```html
 <div class="ufxd-fh-slider-wraper">
 	<div class="ufxd-fh-slider-slides">
@@ -52,7 +53,7 @@ It is as simple as that. By default the slider covers up the `width = parent ele
 
 ## Customization
 UFXD FH Slider has a number of options which you can play with. It should be given at the time of initilization of the slider like the following.
-```
+```html
 <script>
     $(document).ready(function(e) {
         $( '.ufxd-fh-slider-wraper' ).ufxd_fh_slider({
