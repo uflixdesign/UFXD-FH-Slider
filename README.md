@@ -2,7 +2,10 @@
 
 **UFXD FH Slider** is a Responsive Image Slider plugin for jQuery. Here FH means **FIXED HEIGHT**. As the name suggests, using this slider you are able to use any size of images in this slider without breaking any layout due to uneven image dimensions. It will automatically adapt within the content area of the slider.
 
-Later we will see how we can use customize it and also use it as a fullscreen slider.
+Later we will see how we can use and customize it and can also be used as a fullscreen slider.
+
+Project URL: http://uflixdesign.com/project/ufxd-fixed-height-image-slider-responsive/
+More projects @ CodeStack: http://uflixdesign.com/codestack/
 
 ## Requirements
 - jQuery 1.9+ : http://jquery.com/download/
